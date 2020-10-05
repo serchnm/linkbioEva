@@ -1,10 +1,11 @@
 :root {
-	--darkest-color: #f6f6f6;
-	--lightest-color: #ffe2e2;
+	--darkest-color: #d9ecf2;
+	--lightest-label-color: #68b0ab;
+	--lightest-color: #d9ecf2;
 	--highlight-color: #ffc7c7;
-	--bright-color-1: #aaaaaa;
-	--bright-color-2: #ffe2e2;
-	--bright-color-3: #ffc7c7;
+	--bright-color-1: #1aa6b7;
+	--bright-color-2: #ff414d;
+	--bright-color-3: #f56a79;
 }
 
 body {
@@ -40,7 +41,7 @@ body {
 }
 
 a {
-	color: var(--lightest-color);
+	color: var(--lightest-label-color);
 	text-decoration: none;
 }
 
@@ -70,6 +71,11 @@ a:hover {
 .icon-list-img {
 	height: 50px;
 	width: 50px;
+	margin: 3px;
+}
+.twitch-icon-list-img {
+	height: 47px;
+	width: 47px;
 	margin: 3px;
 }
 
