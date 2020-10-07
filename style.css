@@ -1,11 +1,27 @@
 :root {
-	--darkest-color: #d9ecf2;
-	--lightest-label-color: #68b0ab;
-	--lightest-color: #d9ecf2;
-	--highlight-color: #ffc7c7;
-	--bright-color-1: #1aa6b7;
-	--bright-color-2: #ff414d;
-	--bright-color-3: #f56a79;
+	/* Light */
+	/* --darkest-color: #faf3dd;
+	--lightest-title-color: #faf3dd;
+	--lightest-label-color: #065c6f;
+	--lightest-color: #64958f;
+	--highlight-color: #e8ded2;
+	--bright-color-1: #1e5f74;
+	--bright-color-2: #5eaaa8;
+	--bright-color-3: #065c6f;
+	--bright-color-4: #64958f;
+	--bright-color-5: #133b5c; */
+	/* Dark */
+	--darkest-color: #133b5c;
+	--lightest-title-color: #faf3dd;
+	--lightest-label-color: #faf3dd;
+	--lightest-color: #64958f;
+	--highlight-color: #e8ded2;
+	--bright-color-1: #64958f;
+	--bright-color-2: #065c6f;
+	--bright-color-3: #5eaaa8;
+	--bright-color-4: #056676;
+	--bright-color-5: #1d2d50;
+	
 }
 
 body {
@@ -54,7 +70,7 @@ a {
 	border: 1px solid var(--lightest-color);
 	box-sizing: border-box;
 	margin: 20px auto;
-	color: var(--darkest-color);
+	color: var(--lightest-title-color);
 	padding: 15px;
 	text-align: center;
 	transition: all 0.15s;
@@ -89,4 +105,10 @@ a:hover {
 
 .light {
 	background: var(--bright-color-3);
+}
+.light-1 {
+	background: var(--bright-color-4);
+}
+.light-2 {
+	background: var(--bright-color-5);
 }
